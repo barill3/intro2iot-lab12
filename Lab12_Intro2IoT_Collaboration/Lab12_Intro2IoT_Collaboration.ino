@@ -53,7 +53,6 @@ bool isButtonActivated() {
   
   Serial.print("Button: ");
 
-  // TODO: Fix this logic and print the correct status
   if (state == HIGH) {
     // Button not pressed
     return false;
